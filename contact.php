@@ -10,7 +10,7 @@ $veg = $_POST['veg'];
 $nonveg = $_POST['nonveg'];
 $subject1 = "Registration for Querencia'18 : " . $name;
 $message = $_POST['msg'];
-$message="Name:".$name.'<br/>City: '.$city.'<br/>State: '.$state.'<br/>Mobile: '.$mobile.'<br/>Total Participants: '.$total.'<br/>Total Veg: '.$veg.'<br/>Total Non Veg: '.$nonveg;
+$message = "Name:" . $name . '<br/>City: ' . $city . '<br/>State: ' . $state . '<br/>Mobile: ' . $mobile . '<br/>Total Participants: ' . $total . '<br/>Total Veg: ' . $veg . '<br/>Total Non Veg: ' . $nonveg;
 $from = "From: $name<$email>\r\nReturn-path: $email";
 $subject = "A message submitted in your contact form";
 $message = "Name:" . $name . "
@@ -24,5 +24,5 @@ $message = "Name:" . $name . "
 $from = "admin@acvrexports.com";
 $subject = strip_tags($subject);
 $message = strip_tags($message);
-mail("venkat245015@gmail.com", $subject, $message, $from);
+mail("Querencia2k18@yahoo.com", $subject, $message, $from);
 ?>
